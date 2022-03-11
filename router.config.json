@@ -1,0 +1,12 @@
+{
+	"path": "/",
+	"exact": true,
+	"routes": [
+		{
+			"path": "/product",
+			"compName": "ProductList",
+			"title": "产品管理",
+			"inMenu": true
+		}
+	]
+}

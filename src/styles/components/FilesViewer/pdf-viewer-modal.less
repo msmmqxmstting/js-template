@@ -1,0 +1,67 @@
+/**
+ * Created By xun  on 2018-11-14 13:07.
+ * Description: style
+ */
+/**pdfjs viewer 样式覆盖*/
+.preview-pdf-outer-wrap {
+	overflow: hidden !important;
+	.ant-modal {
+		margin: 0;
+		max-width: 100vw;
+	}
+}
+.white-color {
+	color: white;
+}
+.highlight-color {
+	color: @primary-color;
+}
+
+.preview-pdf-modal-wrap > .ant-modal-close,
+.preview-pdf-modal-wrap > .ant-modal-title {
+	color: white;
+}
+
+.preview-pdf-modal-wrap > .ant-modal-content > button.ant-modal-close {
+	padding: 1px;
+	margin: 2px 33px 2px 0;
+	width: 20px;
+	height: 32px;
+	overflow: hidden;
+	color: white;
+	background: #474747;
+}
+.preview-pdf-modal-wrap > .ant-modal-content > button.ant-modal-close > span.ant-modal-close-x {
+	width: 20px;
+	margin-top: -13px;
+}
+
+.preview-pdf-modal-wrap > .ant-modal-close-x:hover {
+	color: @primary-color;
+	box-shadow: 0 0 2px #eee;
+}
+
+.preview-pdf-modal-wrap > .ant-modal-header {
+	color: white;
+
+	padding: 10px 24px 10px 24px;
+	background: #262626;
+}
+
+.preview-pdf-modal-wrap > .ant-modal-content > .ant-modal-body {
+	background: #525659;
+	margin-top: -1px;
+	padding: 0;
+	height: 97vh;
+}
+
+.modal-pdf-container.hx-pdfjs-container > div > .react-pdf__Document {
+	padding-top: 40px;
+}
+.preview-hr {
+	margin-bottom: 40px;
+}
+
+#iframe-modal-close:hover {
+	transform: scale(1.3);
+}

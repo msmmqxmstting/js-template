@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PDF预览组件 PDFViewer正确渲染快照 1`] = `"<div><div id=\\"hx-pdf-viewer\\" style=\\"width:100%;height:600px\\"></div></div>"`;

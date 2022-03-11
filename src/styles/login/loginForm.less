@@ -1,0 +1,77 @@
+@textColor: @text-color;
+@mainColor: @primary-color;
+@secondColor: @second-title-color;
+.screen-title-wrap {
+	font-size: 28px;
+	text-align: center;
+	margin: 32px 30px;
+	background: @primary-color;
+	height: 95px;
+	padding: 25px;
+	color: white;
+}
+#form-input-wrap {
+	margin: 0 auto auto auto;
+	width: 510px;
+	z-index: 999999;
+	input.ant-input {
+		width: 470px;
+		color: @mainColor !important;
+		font-size: 16px !important;
+		border-color: @secondColor !important;
+		border-radius: 6px;
+		margin-left: 40px;
+		background-color: white !important;
+		&:focus,
+		&:hover {
+			border-color: @mainColor !important;
+			box-shadow: none !important;
+		}
+	}
+	.hx-prefix-icon {
+		width: 50px;
+		color: white;
+		padding: 14px 13px;
+		font-size: 22px;
+		margin-left: -11px;
+		background: @mainColor;
+		border-bottom-left-radius: 6px;
+		border-top-left-radius: 6px;
+	}
+
+	.hx-placeholder {
+		color: @secondColor;
+	}
+
+	.label-row {
+		text-align: left;
+		height: 30px;
+		padding: 6px 0 6px 6px;
+		margin-bottom: 8px;
+	}
+	.label-text {
+		color: @textColor;
+		font-size: 18px !important;
+		font-weight: bold;
+	}
+	i.ant-input-password-icon {
+		color: @mainColor;
+	}
+	#login-btn-wrap {
+		margin-top: 50px;
+	}
+	.ant-form-explain {
+		text-align: left;
+	}
+	.block-btn.login-form-btn {
+		width: 100% !important;
+		height: 50px !important;
+		font-size: 18px !important;
+		font-weight: bold;
+		border-width: 0 !important;
+		z-index: 999999;
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+}

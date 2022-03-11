@@ -1,0 +1,56 @@
+html,
+body {
+	min-height: 100vh;
+	font-size: 14px;
+	//	font-family: 'Source Han Sans CN Regular', 'Microsoft YaHei', sans-serif;
+	/*#webpack-dev-server-client-overlay {
+		display: none;
+	}*/
+}
+
+html,
+#root-body,
+#root,
+#app,
+.layout {
+	background-color: white;
+	height: auto;
+	min-width: 1360px;
+	min-height: 600px;
+}
+.preview-pdf-outer-wrap {
+	overflow: hidden;
+}
+
+.hide-overflow-y-wrap > .ant-layout.ant-layout-has-sider > .ant-layout,
+.ant-layout.ant-layout-has-sider > .ant-layout-content {
+	overflow-y: hidden;
+}
+
+/**
+全局样式
+*/
+
+.no-visible {
+	opacity: 0;
+}
+
+/**
+react-loader 全局 spin
+*/
+
+.loader-hidden {
+	display: none;
+}
+
+.loader-active {
+	display: block;
+}
+
+// pdf view
+.hx-pdfjs-container > div > .react-pdf__Document > .react-pdf__Page {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
